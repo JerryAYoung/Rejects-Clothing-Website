@@ -1,16 +1,70 @@
-#container {
-	margin: 25px 50px;
-	background-color: black;
-	color: white;
+body {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
 }
 
-#header {
-	border-bottom: 1px solid grey;
+canvas[resize]{
 	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	text-align: center;
+}
+
+#logo {
+	height: 45px;
+	width: auto;
+}
+
+.nav-link:hover {
+	background: red;
+	border: 1px solid black;
+	transition: 0.3s;
+	transition-
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
 }
 
 #headPhoto {
 	width: 100%;
 	height: auto;
-	border: 2px solid white;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  text-shadow: 1px 1px black;
+  padding: 25px;
+}
+
+#takenCredits:hover {
+	background: red;
+	border: 1px solid black;
+	transition: 0.3s;
+	padding: 5px;
+}
+
+.email {
+	position: relative;
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+	font-weight: 400;
+}
+
+#emailInput {
+	width: 50%;
+}
+
+#emailBtn{
+	margin-left: 5px;
 }
